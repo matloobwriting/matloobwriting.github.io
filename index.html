@@ -6,46 +6,80 @@
   <style>
     body {
       font-family: 'Noto Nastaliq Urdu', serif;
-      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      background: linear-gradient(120deg, #f093fb, #f5576c);
       color: #222;
-      text-align: center;
-      padding: 50px;
       margin: 0;
+      padding: 0;
+      text-align: center;
     }
-    h1 {
-      color: #6a0572;
-      font-size: 40px;
-      margin-bottom: 20px;
+    header {
+      background: #6a0572;
+      color: #fff;
+      padding: 30px 20px;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
     }
-    p {
-      font-size: 22px;
-      line-height: 1.8;
+    header h1 {
+      margin: 0;
+      font-size: 42px;
     }
-    .box {
+    header p {
+      font-size: 20px;
+      margin: 10px 0 0;
+    }
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
       background: #fff;
-      padding: 25px;
-      margin: 20px auto;
-      max-width: 700px;
+      padding: 30px;
       border-radius: 20px;
-      box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.25);
     }
-    .footer {
-      margin-top: 50px;
+    .content h2 {
+      color: #6a0572;
+      margin-bottom: 15px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      margin-top: 20px;
       font-size: 18px;
-      color: #444;
+      color: #fff;
+      background: linear-gradient(135deg, #ff9966, #ff5e62);
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: linear-gradient(135deg, #36d1dc, #5b86e5);
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      margin-top: 50px;
+      font-size: 16px;
     }
   </style>
 </head>
 <body>
-  <h1>🌹 خوش آمدید 🌹</h1>
-  <div class="box">
-    <p>السلام علیکم! یہ Matloob Ahmed کی ذاتی ویب سائٹ ہے۔</p>
-    <p>یہاں آپ میری تحریریں، شاعری اور کہانیاں پڑھ سکتے ہیں۔</p>
-    <p>مزید مواد جلد شامل کیا جائے گا ان شاء اللہ۔</p>
+  <header>
+    <h1>🌹 خوش آمدید 🌹</h1>
+    <p>Matloob Ahmed کی ذاتی ویب سائٹ</p>
+  </header>
+
+  <div class="content">
+    <h2>میرا تعارف</h2>
+    <p>السلام علیکم! یہ میری اپنی ویب سائٹ ہے، یہاں میں اپنی تحریریں، شاعری اور کہانیاں پیش کرتا ہوں۔</p>
+    <p>مزید نیا مواد ان شاء اللہ جلد شامل کیا جائے گا۔</p>
+    <a class="btn" href="#">مزید پڑھیں</a>
   </div>
-  <div class="footer">
-    <p>📌 وزٹ کرنے کا شکریہ</p>
-    <p>🔗 Website: https://matloobwriting.github.io</p>
-  </div>
+
+  <footer>
+    <p>© 2025 Matloob Ahmed | Designed with ❤️</p>
+    <p>🔗 https://matloobwriting.github.io</p>
+  </footer>
 </body>
 </html>
